@@ -18,6 +18,6 @@ def timeit(method):
     return timed
 
 
-df = pd.read_csv("/Users/juanmagonzalez/Documents/GitHub/SINAC - ETL/Datasets/sinac2016DatosAbiertos.csv")
+df = pd.read_csv("../Datasets/sinac2016DatosAbiertos.csv")
 
 print(df.head)
