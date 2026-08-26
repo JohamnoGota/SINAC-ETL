@@ -30,5 +30,5 @@ terraform.rc
 # Ignore transient lock info files created by terraform apply
 .terraform.tfstate.lock.info
 
-# Optional: ignore plan files if you use `terraform plan -out=tfplan`
-# *.tfplan
+# System created files
+.DS_Store
