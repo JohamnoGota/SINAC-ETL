@@ -32,3 +32,4 @@ terraform.rc
 
 # System created files
 .DS_Store
+.vscode
